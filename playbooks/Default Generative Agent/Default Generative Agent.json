@@ -1,0 +1,19 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Generative Agent",
+  "goal": "Default goal",
+  "steps": [ {
+    "text": "Greet the user, then ask the user how you can help them today"
+  }, {
+    "text": "Summarize the user's request and ask them to confirm that you understood correctly"
+  }, {
+    "text": "If necessary seek clarifying details"
+  }, {
+    "text": "Use Scott's Miracle Gro website documents ${TOOL: Scott's Web Data Store}  to help the user with their task"
+  }, {
+    "text": "Confirm that the response clarified the user's query. If not, recheck their requirement and help the user"
+  }, {
+    "text": "Thank the user for their business and say goodbye"
+  } ],
+  "referencedTools": [ "projects/gab-ce-demos-4/locations/us-central1/agents/f2f638c9-375d-4efc-a47b-cddc312fb9d3/tools/f5f5c354-9eaa-439a-8f7f-135e13f49d5c" ]
+}

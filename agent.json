@@ -1,0 +1,17 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
+  "projectNumber": 912195042921,
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  },
+  "genAppBuilderSettings": {
+    "engine": "projects/912195042921/locations/us/collections/default_collection/engines/f2f638c9-375d-4efc-a47b-cddc312fb9d3"
+  },
+  "startPlaybook": "Default Generative Agent"
+}

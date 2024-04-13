@@ -1,0 +1,50 @@
+{
+  "name": "a84d8214-6d2f-4c40-a040-f6060392c90f",
+  "actions": [ {
+    "userUtterance": {
+      "text": "hi"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi, how can I help you today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I want to manage my lawn"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I can help you with that! What would you like to know?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "How can i keep it healthy"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/gab-ce-demos-4/locations/us-central1/agents/f2f638c9-375d-4efc-a47b-cddc312fb9d3/tools/f5f5c354-9eaa-439a-8f7f-135e13f49d5c",
+      "action": "Scott's Web Data Store",
+      "inputParameters": [ {
+        "name": "requestBody",
+        "value": {
+          "query": "how to keep lawn healthy"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "You can keep your lawn healthy by watering regularly and removing weeds."
+    }
+  } ],
+  "displayName": "Using Scott's Web Pages",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}
