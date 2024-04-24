@@ -1,0 +1,31 @@
+openapi: 3.0.0
+info:
+  title: Victoria's Secret Product Feed API (Hypothetical)
+  description: Assumed Functionality - Use with caution 
+  version: v3
+servers:
+  - url: https://functiongetspecies-mbhcxwuchq-uc.a.run.app
+paths:
+  /get_similar_plant/{plantname}:
+    get:
+      summary: Get similar species details by plantname
+      operationId: get_similar_plant
+      parameters:
+      - name: plantname
+        in: path
+        description: Name of plant similar to current
+        required: true
+        schema:
+            type: string
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Species'
+
+components:
+  schemas:
+    Species:
+      type: object

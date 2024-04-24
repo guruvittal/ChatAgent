@@ -1,0 +1,64 @@
+{
+  "name": "94c500fd-8017-40a1-95ec-6e63b6f34a52",
+  "actions": [ {
+    "userUtterance": {
+      "text": "hi"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi, how can I help you today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I want details about a plant"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "What plant would you like to know about?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Maple"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/gab-ce-demos-4/locations/us-central1/agents/f2f638c9-375d-4efc-a47b-cddc312fb9d3/tools/ce3daee6-1e7f-4f0b-a659-dcdfa08e40ff",
+      "action": "get_similar_plant",
+      "inputParameters": [ {
+        "name": "plantname",
+        "value": "Maple"
+      } ],
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "common_name": {
+            "0": "Amur Maple"
+          },
+          "cycle": {
+            "0": "Perennial"
+          },
+          "other_name": {
+            "0": "[]"
+          },
+          "scientific_name": {
+            "0": "['Acer ginnala']"
+          },
+          "sunlight": {
+            "0": "['full sun', 'part shade']"
+          },
+          "watering": {
+            "0": "Average"
+          }
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "The Amur Maple is a perennial plant that can grow in full sun or part shade. It requires average watering."
+    }
+  } ],
+  "displayName": "PlantLookup",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

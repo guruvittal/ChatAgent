@@ -10,6 +10,10 @@
           "text": [ "Hi! How are you doing?", "Hello! How can I help you?", "Good day! What can I do for you today?", "Greetings! How can I assist?" ]
         },
         "languageCode": "en"
+      } ],
+      "generators": [ {
+        "generator": "projects/gab-ce-demos-4/locations/us-central1/agents/f2f638c9-375d-4efc-a47b-cddc312fb9d3/generators/4f4feb3a-870b-4348-8c9b-13a4874dc037",
+        "outputParameter": "$request.generative."
       } ]
     },
     "name": "65710e95-b2f5-4faa-9848-d26c7929af9d"

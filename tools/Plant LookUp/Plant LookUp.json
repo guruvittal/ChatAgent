@@ -1,0 +1,10 @@
+{
+  "name": "ce3daee6-1e7f-4f0b-a659-dcdfa08e40ff",
+  "displayName": "Plant LookUp",
+  "description": "Use this tool to lookup related plant id and details",
+  "openApiSpec": {
+  
+  },
+  "schemas": [ "Species" ],
+  "toolType": "CUSTOMIZED_TOOL"
+}
